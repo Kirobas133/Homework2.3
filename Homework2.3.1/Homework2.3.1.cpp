@@ -15,7 +15,9 @@ public:
             this->num2 = num2;
         }
         else {
-            std::cout << "Неверный ввод!";
+            this->num1 = 1;
+            this->num2 = 1;
+            std::cout << "Неверный ввод! num1 и num2 установлены значениями по умолчанию(1).";
         }
     }
 
